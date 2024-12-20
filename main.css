@@ -313,6 +313,15 @@ img {
     margin: 10%;
     margin-top: 10px;
    }
+
+   .threecontainer {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8vw;
+    margin: 10%;
+    margin-top: 10px;
+   }
    
     */
    h1.text {
@@ -325,7 +334,14 @@ img {
      max-width: 30vw;
      max-height:auto;
      border-radius: 20px;
+     margin-top: 20%;
+   }
 
+   hr {
+    width: 70%;
+    border: 0;
+    border-top: 1px solid #74b0968b;
+    margin: 20px auto;
    }
 
    
