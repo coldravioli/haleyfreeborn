@@ -310,8 +310,8 @@ img {
     align-items: center; 
     grid-template-columns: 1fr 1fr;
     column-gap: 8vw;
-    margin: 10%;
-    margin-top: 10px;
+    margin: 15%;
+    margin-top: 0;
    }
 
    .threecontainer {
@@ -334,7 +334,6 @@ img {
      max-width: 30vw;
      max-height:auto;
      border-radius: 20px;
-     margin-top: 20%;
    }
 
    hr {
@@ -343,5 +342,3 @@ img {
     border-top: 1px solid #74b0968b;
     margin: 20px auto;
    }
-
-   
