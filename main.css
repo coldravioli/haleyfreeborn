@@ -1,11 +1,85 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ballet:opsz@16..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Silkscreen:wght@400;700&display=swap");
+
+
+.lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 
 * {
     box-sizing: border-box;
 }
 
+h1{
+    font-size: 70px;
+    position: relative;
+}
+
+p{
+    font-family: karla;
+}
+
 body {
-    background-color: white(255, 255, 255);
+    background-color: rgba(214, 235, 255, 0.2);
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -71,13 +145,13 @@ img {
     text-align: center;
     padding:5%;
     text-decoration: none;
-    font-family: 'Silkscreen', monospace;
+    font-family: 'Lato', monospace;
     font-size: 20px;
   }
   
   /* Add an active class to highlight the current page */
   .active {
-    color: rgb(255, 0, 0) !important;
+    color: #74b096 !important;
     border-radius: 50px;
   }
   
@@ -98,7 +172,7 @@ img {
   /* Style the dropdown button to fit inside the topnav */
   .dropdown .dropbtn {
     font-size: 20px;
-    font-family: 'Silkscreen', monospace;
+    /* font-family: 'Silkscreen', monospace; */
     border: none;
     outline: none;
     color: #8b989c;
@@ -119,8 +193,6 @@ img {
     z-index: 1;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 20px;
-
-
   }
   
   /* Style the links inside the dropdown */
@@ -136,7 +208,7 @@ img {
   /* Add a dark background on topnav links and the dropdown button on hover */
   .topnav a:hover, .dropdown:hover .dropbtn {
     /* background-color: #c1e4a57d; */
-    color: rgb(255, 0, 0);
+    color: #9de0ce;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 50px;
 
@@ -189,3 +261,71 @@ img {
       text-align: left;
     }
   }
+
+  img.center{
+    position:absolute;
+    z-index:-1;
+  }
+
+  #container {
+    background-image:url(mountains.png);
+    background-position:center;
+    position: relative;
+    width:700px;
+    height:400px;
+    z-index: -1;
+}
+
+.img-with-text {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 13%;
+    height: auto;
+}
+
+.img-with-text img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.img-with-text h1 {
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 8, 26); 
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    /* padding: 10px;  */
+    font-size: 10vw;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8vw;
+    margin: 10%;
+    margin-top: 10px;
+   }
+   
+    */
+   h1.text {
+     font-size: 10vw;
+     /* text-align: center; */
+   }
+
+
+.haleypic img{
+     max-width: 30vw;
+     max-height:auto;
+     border-radius: 20px;
+
+   }
+
+   
